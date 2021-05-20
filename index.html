@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>university website design</title>
+</head>
+<body>
+    
+<section class="header">
+    <nav>
+    <a  href="#"><img id="logo" src="logo.png" alt=""></a>
+    
+    <div class="nav-links">
+        <i class="fa fa-times" id="crossicon" onclick="hidemenu()"></i>
+    <ul >        
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">COURSE</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>    
+</div>
+<i class="fa fa-bars"id="menuicon" onclick="showmenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Worlds biggest university</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur numquam possimus consequuntur esse nulla </p>
+        <a href="">Visit us to know more</a>
+    </div>
+</section>
+<!-- course -->
+<section class="course">
+<h1>Courses we offer</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur fugiat eligendi quam et laudantium fugit cupiditate rerum. </p>
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique possimus officia nisi. Accusamus quo eaque, </p>
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique possimus officia nisi. Accusamus quo eaque, </p>
+    </div>
+    <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique possimus officia nisi. Accusamus quo eaque, </p>
+    </div>
+</div>
+</section>
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel placeat dicta, ipsam asperiores numquam, accusamus hic aut deleniti quasi velit fugiat dolor nihil repudiandae doloremque quis porro ipsa error aliquam perspiciatis est molestiae cumque cupiditate provident! Sit maxime asperiores est .</p>
+    <div class="row">
+        <div class="campus-column">
+            <img src="campus1.png" alt="">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-column">
+            <img src="campus2.png" alt="">
+            <div class="layer">
+                <h3>BOSTON</h3>
+            </div>
+        </div>
+        <div class="campus-column">
+            <img src="campus3.png" alt="">
+            <div class="layer">
+                <h3>INDIA</h3>
+            </div>
+        </div>        
+    </div>
+</section>
+<section class="testimonials">
+<h3>Testimonials</h3>
+<p>What Our Student Say About Us</p>
+<div class="row">
+
+    <div class="test-col">
+    <img src="Capture2.PNG" alt="">
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, officia cumque atque quidem nobis aliquid soluta minima repudiandae facilis obcaecati, dolore beatae accusantium? Similique expedita et fugiat, distinctio vero quo.</p>
+    <h3>tushat porter</h3>
+</div>
+    </div>
+    <div class="test-col">
+        <img src="campus1.png" alt="">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, officia cumque atque quidem nobis aliquid soluta minima repudiandae facilis obcaecati, dolore beatae accusantium? Similique expedita et fugiat, distinctio vero quo.</p>
+            <h3>rohit sachdeva</h3>
+        </div>
+        
+    </div>
+</div>
+</section>
+<section class="footer">
+<h3>About US</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est et consectetur veniam, inventore delectus blanditiis maiores magni eum corrupti repellat soluta esse nulla aperiam natus suscipit vitae dicta facilis voluptas.</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+<script>
+let crossicon=document.querySelector(".nav-links");
+let menuitem=document.getElementById("menuicon");
+
+function hidemenu()
+{
+    crossicon.style.right='-200px';
+}
+
+function showmenu()
+{
+    crossicon.style.right='0';
+}
+
+
+</script>
+</body>
+</html>
